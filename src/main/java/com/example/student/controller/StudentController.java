@@ -48,7 +48,7 @@ public class StudentController {
 	{
 		logger.info("Get Request For A Studet Name {} came",name);
 		logger.info("Get Request is forwarded to service layer");
-
+		logger.info("student");
     	return std1.getDetailsByName(name);
 		
 		
