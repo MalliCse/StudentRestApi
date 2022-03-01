@@ -1,40 +1,56 @@
 package com.example.student.service;
 
-import org.junit.jupiter.api.BeforeEach;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.NoSuchElementException;
+
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
+import org.mockito.InjectMocks;
+import org.mockito.Mock;
 import org.mockito.Mockito;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.boot.test.mock.mockito.MockBean;
 
 import com.example.student.entity.Student;
 import com.example.student.reporitory.StudentRepository;
 
-import static org.junit.jupiter.api.Assertions.*;
 
 @SpringBootTest
-class StudentService1 {
+class StudentService1  {
 
-	@Autowired
+	@InjectMocks
 	private StudentService std1;
 	
-	@MockBean
+	@Mock
 	private StudentRepository stdrep;
 	
-	@BeforeEach
-	public void setUp()
-	{
+	Student s;
+	
+	@Disabled
+	@Test
+	public void test() throws NoSuchElementException {
+		//String name="Malli";
 		long id=1;
-		Student s=new Student(id,"Malli","Vijay","Rani",10,"Veluru");
+		s=new Student(1,"Malli","Vijay","Rani",10,"Veluru");
+		System.out.print(s);
+		List<Student> stud=new ArrayList<Student>();
+		stud.add(s);
 		Mockito.when(stdrep.findById(id).get()).thenReturn(s);
+		assertEquals(std1.getDetails(id),s);
 	}
 	
 	@Test
-	void test() {
+	public void test1() throws NoSuchElementException {
+		String name="Malli";
 		long id=1;
-		 Student stud=std1.getDetails(id);
-		 System.out.print(stud.getId());
-		 assertNotEquals(id,stud.getId());
+		s=new Student(1,"Malli","Vijay","Rani",10,"Veluru");
+		System.out.print(s);
+		List<Student> stud=new ArrayList<Student>();
+		stud.add(s);
+		Mockito.when(stdrep.findByStudentname(name)).thenReturn(stud);
+		assertEquals(std1.getDetailsByName(name),stud);
 	}
 
 	

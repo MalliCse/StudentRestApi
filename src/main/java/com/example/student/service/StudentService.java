@@ -16,7 +16,7 @@ public class StudentService {
 	@Autowired
 	private StudentRepository stdrepo;
 	
-	public Student getDetails(Long id)
+	public Student getDetails(long id)
 	{
 		
 		System.out.println("Request cam to service layer of get method");
