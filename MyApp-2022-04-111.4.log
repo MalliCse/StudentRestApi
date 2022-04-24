@@ -1,0 +1,46 @@
+2022-04-21 13:11:52,572 [main] INFO  o.apache.coyote.http11.Http11NioProtocol           - Initializing ProtocolHandler ["http-nio-8081"]
+2022-04-21 13:11:52,575 [main] INFO  org.apache.catalina.core.StandardService           - Starting service [Tomcat]
+2022-04-21 13:11:52,575 [main] INFO  org.apache.catalina.core.StandardEngine            - Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-04-21 13:11:52,683 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring embedded WebApplicationContext
+2022-04-21 13:11:52,684 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     - Root WebApplicationContext: initialization completed in 2318 ms
+2022-04-21 13:11:52,719 [main] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Starting...
+2022-04-21 13:11:52,931 [main] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Start completed.
+2022-04-21 13:11:52,945 [main] INFO  o.s.b.a.h2.H2ConsoleAutoConfiguration              - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:student'
+2022-04-21 13:11:53,076 [main] INFO  o.hibernate.jpa.internal.util.LogHelper            - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-04-21 13:11:53,137 [main] INFO  org.hibernate.Version                              - HHH000412: Hibernate ORM core version 5.6.3.Final
+2022-04-21 13:11:53,323 [main] INFO  org.hibernate.annotations.common.Version           - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-04-21 13:11:53,460 [main] INFO  org.hibernate.dialect.Dialect                      - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-04-21 13:11:54,204 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator                 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-04-21 13:11:54,214 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-04-21 13:11:54,657 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-04-21 13:11:55,019 [main] INFO  o.apache.coyote.http11.Http11NioProtocol           - Starting ProtocolHandler ["http-nio-8081"]
+2022-04-21 13:11:55,063 [main] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat started on port(s): 8081 (http) with context path ''
+2022-04-21 13:11:55,076 [main] INFO  c.e.student.StudentManagementApplication           - Started StudentManagementApplication in 5.413 seconds (JVM running for 6.899)
+2022-04-21 13:12:03,037 [http-nio-8081-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-21 13:12:03,037 [http-nio-8081-exec-2] INFO  o.s.web.servlet.DispatcherServlet                  - Initializing Servlet 'dispatcherServlet'
+2022-04-21 13:12:03,038 [http-nio-8081-exec-2] INFO  o.s.web.servlet.DispatcherServlet                  - Completed initialization in 1 ms
+2022-04-21 13:12:03,244 [http-nio-8081-exec-2] INFO  c.e.student.controller.StudentController           - Post Request Came For All Students
+2022-04-21 13:12:03,245 [http-nio-8081-exec-2] INFO  c.e.student.controller.StudentController           - Post Request is forwarded to service layer
+2022-04-21 13:13:28,413 [background-preinit] INFO  o.h.validator.internal.util.Version                - HV000001: Hibernate Validator 6.2.0.Final
+2022-04-21 13:13:28,440 [main] INFO  c.e.student.StudentManagementApplication           - Starting StudentManagementApplication using Java 17 on DESKTOP-6MJ53NL with PID 14608 (C:\Users\admin\git\StudentRestApi\target\classes started by admin in C:\Users\admin\git\StudentRestApi)
+2022-04-21 13:13:28,441 [main] DEBUG c.e.student.StudentManagementApplication           - Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-04-21 13:13:28,442 [main] INFO  c.e.student.StudentManagementApplication           - No active profile set, falling back to default profiles: default
+2022-04-21 13:13:29,220 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-04-21 13:13:29,281 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Finished Spring Data repository scanning in 48 ms. Found 1 JPA repository interfaces.
+2022-04-21 13:13:29,875 [main] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat initialized with port(s): 8081 (http)
+2022-04-21 13:13:29,885 [main] INFO  o.apache.coyote.http11.Http11NioProtocol           - Initializing ProtocolHandler ["http-nio-8081"]
+2022-04-21 13:13:29,887 [main] INFO  org.apache.catalina.core.StandardService           - Starting service [Tomcat]
+2022-04-21 13:13:29,888 [main] INFO  org.apache.catalina.core.StandardEngine            - Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-04-21 13:13:29,993 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring embedded WebApplicationContext
+2022-04-21 13:13:29,994 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     - Root WebApplicationContext: initialization completed in 1493 ms
+2022-04-21 13:13:30,053 [main] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Starting...
+2022-04-21 13:13:30,266 [main] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Start completed.
+2022-04-21 13:13:30,279 [main] INFO  o.s.b.a.h2.H2ConsoleAutoConfiguration              - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:student'
+2022-04-21 13:13:30,410 [main] INFO  o.hibernate.jpa.internal.util.LogHelper            - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-04-21 13:13:30,484 [main] INFO  org.hibernate.Version                              - HHH000412: Hibernate ORM core version 5.6.3.Final
+2022-04-21 13:13:30,697 [main] INFO  org.hibernate.annotations.common.Version           - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-04-21 13:13:30,825 [main] INFO  org.hibernate.dialect.Dialect                      - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-04-21 13:13:31,590 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator                 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-04-21 13:13:31,604 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-04-21 13:13:32,061 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-04-21 13:13:32,417 [main] INFO  o.apache.coyote.http11.Http11NioProtocol           - Starting ProtocolHandler ["http-nio-8081"]

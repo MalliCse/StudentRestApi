@@ -1,0 +1,41 @@
+2022-04-11 11:16:46,346 [main] INFO  o.hibernate.jpa.internal.util.LogHelper            - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-04-11 11:16:46,406 [main] INFO  org.hibernate.Version                              - HHH000412: Hibernate ORM core version 5.6.3.Final
+2022-04-11 11:16:46,581 [main] INFO  org.hibernate.annotations.common.Version           - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-04-11 11:16:46,696 [main] INFO  org.hibernate.dialect.Dialect                      - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-04-11 11:16:47,508 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator                 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-04-11 11:16:47,703 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-04-11 11:16:48,331 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-04-11 11:16:48,739 [main] INFO  o.apache.coyote.http11.Http11NioProtocol           - Starting ProtocolHandler ["http-nio-8081"]
+2022-04-11 11:16:48,795 [main] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat started on port(s): 8081 (http) with context path ''
+2022-04-11 11:16:48,808 [main] INFO  c.e.student.StudentManagementApplication           - Started StudentManagementApplication in 5.013 seconds (JVM running for 6.328)
+2022-04-11 11:16:53,818 [http-nio-8081-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-11 11:16:53,818 [http-nio-8081-exec-2] INFO  o.s.web.servlet.DispatcherServlet                  - Initializing Servlet 'dispatcherServlet'
+2022-04-11 11:16:53,819 [http-nio-8081-exec-2] INFO  o.s.web.servlet.DispatcherServlet                  - Completed initialization in 1 ms
+2022-04-11 11:16:54,015 [http-nio-8081-exec-2] INFO  c.e.student.controller.StudentController           - Post Request Came For All Students
+2022-04-11 11:16:54,015 [http-nio-8081-exec-2] INFO  c.e.student.controller.StudentController           - Post Request is forwarded to service layer
+2022-04-11 11:16:54,060 [http-nio-8081-exec-2] ERROR c.e.student.exceptions.GlobalExceptions            - NoSuchElement Exception is caught
+2022-04-11 14:19:44,762 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool                  - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3h28s433ms948µs400ns).
+2022-04-11 17:06:19,711 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool                  - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h46m58s262ms487µs900ns).
+2022-04-11 17:21:11,745 [RMI TCP Connection(24)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2022-04-11 17:21:11,825 [RMI TCP Connection(24)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-04-11 17:21:11,827 [RMI TCP Connection(24)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Shutdown initiated...
+2022-04-11 17:21:11,830 [RMI TCP Connection(24)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Shutdown completed.
+2022-04-11 17:21:24,259 [background-preinit] INFO  o.h.validator.internal.util.Version                - HV000001: Hibernate Validator 6.2.0.Final
+2022-04-11 17:21:24,288 [main] INFO  c.e.student.StudentManagementApplication           - Starting StudentManagementApplication using Java 17 on DESKTOP-6MJ53NL with PID 11008 (C:\Users\admin\git\StudentRestApi\target\classes started by admin in C:\Users\admin\git\StudentRestApi)
+2022-04-11 17:21:24,289 [main] DEBUG c.e.student.StudentManagementApplication           - Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-04-11 17:21:24,290 [main] INFO  c.e.student.StudentManagementApplication           - No active profile set, falling back to default profiles: default
+2022-04-11 17:21:25,223 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-04-11 17:21:25,292 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Finished Spring Data repository scanning in 53 ms. Found 1 JPA repository interfaces.
+2022-04-11 17:21:26,074 [main] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat initialized with port(s): 8081 (http)
+2022-04-11 17:21:26,088 [main] INFO  o.apache.coyote.http11.Http11NioProtocol           - Initializing ProtocolHandler ["http-nio-8081"]
+2022-04-11 17:21:26,089 [main] INFO  org.apache.catalina.core.StandardService           - Starting service [Tomcat]
+2022-04-11 17:21:26,089 [main] INFO  org.apache.catalina.core.StandardEngine            - Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-04-11 17:21:26,229 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring embedded WebApplicationContext
+2022-04-11 17:21:26,229 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     - Root WebApplicationContext: initialization completed in 1869 ms
+2022-04-11 17:21:26,347 [main] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Starting...
+2022-04-11 17:21:26,561 [main] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Start completed.
+2022-04-11 17:21:26,574 [main] INFO  o.s.b.a.h2.H2ConsoleAutoConfiguration              - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:student'
+2022-04-11 17:21:26,703 [main] INFO  o.hibernate.jpa.internal.util.LogHelper            - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-04-11 17:21:26,774 [main] INFO  org.hibernate.Version                              - HHH000412: Hibernate ORM core version 5.6.3.Final
+2022-04-11 17:21:27,369 [main] INFO  org.hibernate.annotations.common.Version           - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-04-11 17:21:27,960 [main] INFO  org.hibernate.dialect.Dialect                      - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
