@@ -1,0 +1,38 @@
+2022-04-06 10:56:32,673 [http-nio-8081-exec-4] INFO  c.e.student.controller.StudentController           - Get Request For A Studet id 1 came
+2022-04-06 10:56:32,675 [http-nio-8081-exec-4] INFO  c.e.student.controller.StudentController           - Get Request is forwarded to service layer
+2022-04-06 10:56:32,752 [http-nio-8081-exec-4] ERROR c.e.student.exceptions.GlobalExceptions            - NoSuchElement Exception is caught
+2022-04-06 12:23:51,534 [RMI TCP Connection(90)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2022-04-06 12:23:51,606 [RMI TCP Connection(90)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-04-06 12:23:51,610 [RMI TCP Connection(90)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Shutdown initiated...
+2022-04-06 12:23:51,612 [RMI TCP Connection(90)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Shutdown completed.
+2022-04-06 12:24:00,351 [background-preinit] INFO  o.h.validator.internal.util.Version                - HV000001: Hibernate Validator 6.2.0.Final
+2022-04-06 12:24:00,376 [main] INFO  c.e.student.StudentManagementApplication           - Starting StudentManagementApplication using Java 17 on DESKTOP-6MJ53NL with PID 14264 (C:\Users\admin\git\StudentRestApi\target\classes started by admin in C:\Users\admin\git\StudentRestApi)
+2022-04-06 12:24:00,377 [main] DEBUG c.e.student.StudentManagementApplication           - Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-04-06 12:24:00,377 [main] INFO  c.e.student.StudentManagementApplication           - No active profile set, falling back to default profiles: default
+2022-04-06 12:24:01,095 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-04-06 12:24:01,147 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Finished Spring Data repository scanning in 40 ms. Found 1 JPA repository interfaces.
+2022-04-06 12:24:01,686 [main] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat initialized with port(s): 8081 (http)
+2022-04-06 12:24:01,696 [main] INFO  o.apache.coyote.http11.Http11NioProtocol           - Initializing ProtocolHandler ["http-nio-8081"]
+2022-04-06 12:24:01,696 [main] INFO  org.apache.catalina.core.StandardService           - Starting service [Tomcat]
+2022-04-06 12:24:01,697 [main] INFO  org.apache.catalina.core.StandardEngine            - Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-04-06 12:24:01,806 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring embedded WebApplicationContext
+2022-04-06 12:24:01,806 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     - Root WebApplicationContext: initialization completed in 1374 ms
+2022-04-06 12:24:01,844 [main] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Starting...
+2022-04-06 12:24:02,037 [main] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Start completed.
+2022-04-06 12:24:02,048 [main] INFO  o.s.b.a.h2.H2ConsoleAutoConfiguration              - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:student'
+2022-04-06 12:24:02,186 [main] INFO  o.hibernate.jpa.internal.util.LogHelper            - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-04-06 12:24:02,244 [main] INFO  org.hibernate.Version                              - HHH000412: Hibernate ORM core version 5.6.3.Final
+2022-04-06 12:24:02,420 [main] INFO  org.hibernate.annotations.common.Version           - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-04-06 12:24:02,541 [main] INFO  org.hibernate.dialect.Dialect                      - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-04-06 12:24:03,191 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator                 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-04-06 12:24:03,199 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-04-06 12:24:03,609 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-04-06 12:24:03,926 [main] INFO  o.apache.coyote.http11.Http11NioProtocol           - Starting ProtocolHandler ["http-nio-8081"]
+2022-04-06 12:24:03,977 [main] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat started on port(s): 8081 (http) with context path ''
+2022-04-06 12:24:03,990 [main] INFO  c.e.student.StudentManagementApplication           - Started StudentManagementApplication in 4.028 seconds (JVM running for 5.182)
+2022-04-06 12:24:42,437 [http-nio-8081-exec-6] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-06 12:24:42,438 [http-nio-8081-exec-6] INFO  o.s.web.servlet.DispatcherServlet                  - Initializing Servlet 'dispatcherServlet'
+2022-04-06 12:24:42,448 [http-nio-8081-exec-6] INFO  o.s.web.servlet.DispatcherServlet                  - Completed initialization in 2 ms
+2022-04-06 12:25:17,769 [http-nio-8081-exec-3] INFO  c.e.student.controller.StudentController           - Post Request Came For All Students
+2022-04-06 12:25:17,770 [http-nio-8081-exec-3] INFO  c.e.student.controller.StudentController           - Post Request is forwarded to service layer
+2022-04-06 12:25:17,826 [http-nio-8081-exec-3] ERROR c.e.student.exceptions.GlobalExceptions            - NoSuchElement Exception is caught

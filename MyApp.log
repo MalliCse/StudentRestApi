@@ -1,0 +1,20 @@
+2022-04-24 13:02:01,467 [main] INFO  c.e.s.StudentManagementApplicationTests            - Starting StudentManagementApplicationTests using Java 17 on DESKTOP-6MJ53NL with PID 3536 (started by admin in C:\Users\admin\git\StudentRestApi)
+2022-04-24 13:02:01,470 [main] DEBUG c.e.s.StudentManagementApplicationTests            - Running with Spring Boot v2.6.2, Spring v5.3.14
+2022-04-24 13:02:01,471 [main] INFO  c.e.s.StudentManagementApplicationTests            - No active profile set, falling back to default profiles: default
+2022-04-24 13:02:01,756 [background-preinit] INFO  o.h.validator.internal.util.Version                - HV000001: Hibernate Validator 6.2.0.Final
+2022-04-24 13:02:07,074 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-04-24 13:02:07,342 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Finished Spring Data repository scanning in 225 ms. Found 1 JPA repository interfaces.
+2022-04-24 13:02:10,601 [main] INFO  o.hibernate.jpa.internal.util.LogHelper            - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-04-24 13:02:11,622 [main] INFO  org.hibernate.Version                              - HHH000412: Hibernate ORM core version 5.6.3.Final
+2022-04-24 13:02:12,845 [main] INFO  org.hibernate.annotations.common.Version           - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-04-24 13:02:13,676 [main] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Starting...
+2022-04-24 13:02:14,569 [main] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Start completed.
+2022-04-24 13:02:14,741 [main] INFO  org.hibernate.dialect.Dialect                      - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-04-24 13:02:18,290 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator                 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-04-24 13:02:18,299 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-04-24 13:02:20,593 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-04-24 13:02:21,372 [main] INFO  o.s.b.a.h2.H2ConsoleAutoConfiguration              - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:student'
+2022-04-24 13:02:22,264 [main] INFO  c.e.s.StudentManagementApplicationTests            - Started StudentManagementApplicationTests in 22.611 seconds (JVM running for 28.471)
+2022-04-24 13:02:23,081 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-04-24 13:02:23,083 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Shutdown initiated...
+2022-04-24 13:02:23,087 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Shutdown completed.

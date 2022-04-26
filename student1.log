@@ -1,0 +1,90 @@
+INFO 2022-04-02 12:52:36.964:[main] c.e.s.StudentManagementApplication      :Starting StudentManagementApplication using Java 17 on DESKTOP-6MJ53NL with PID 17352 (C:\Users\admin\git\StudentRestApi\target\classes started by admin in C:\Users\admin\git\StudentRestApi)
+DEBUG 2022-04-02 12:52:36.970:[main] c.e.s.StudentManagementApplication      :Running with Spring Boot v2.6.2, Spring v5.3.14
+INFO 2022-04-02 12:52:36.972:[main] c.e.s.StudentManagementApplication      :No active profile set, falling back to default profiles: default
+INFO 2022-04-02 12:52:37.864:[main] .s.d.r.c.RepositoryConfigurationDelegate:Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+INFO 2022-04-02 12:52:37.932:[main] .s.d.r.c.RepositoryConfigurationDelegate:Finished Spring Data repository scanning in 51 ms. Found 1 JPA repository interfaces.
+INFO 2022-04-02 12:52:38.680:[main] o.s.b.w.embedded.tomcat.TomcatWebServer :Tomcat initialized with port(s): 8081 (http)
+INFO 2022-04-02 12:52:38.693:[main] o.apache.catalina.core.StandardService  :Starting service [Tomcat]
+INFO 2022-04-02 12:52:38.694:[main] org.apache.catalina.core.StandardEngine :Starting Servlet engine: [Apache Tomcat/9.0.56]
+INFO 2022-04-02 12:52:38.843:[main] o.a.c.c.C.[Tomcat].[localhost].[/]      :Initializing Spring embedded WebApplicationContext
+INFO 2022-04-02 12:52:38.844:[main] w.s.c.ServletWebServerApplicationContext:Root WebApplicationContext: initialization completed in 1720 ms
+INFO 2022-04-02 12:52:38.911:[main] com.zaxxer.hikari.HikariDataSource      :HikariPool-1 - Starting...
+INFO 2022-04-02 12:52:39.127:[main] com.zaxxer.hikari.HikariDataSource      :HikariPool-1 - Start completed.
+INFO 2022-04-02 12:52:39.145:[main] o.s.b.a.h2.H2ConsoleAutoConfiguration   :H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:student'
+INFO 2022-04-02 12:52:39.310:[main] o.hibernate.jpa.internal.util.LogHelper :HHH000204: Processing PersistenceUnitInfo [name: default]
+INFO 2022-04-02 12:52:39.388:[main] org.hibernate.Version                   :HHH000412: Hibernate ORM core version 5.6.3.Final
+INFO 2022-04-02 12:52:39.581:[main] o.hibernate.annotations.common.Version  :HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+INFO 2022-04-02 12:52:39.727:[main] org.hibernate.dialect.Dialect           :HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+INFO 2022-04-02 12:52:40.600:[main] o.h.e.t.j.p.i.JtaPlatformInitiator      :HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+INFO 2022-04-02 12:52:40.612:[main] j.LocalContainerEntityManagerFactoryBean:Initialized JPA EntityManagerFactory for persistence unit 'default'
+WARN 2022-04-02 12:52:41.093:[main] JpaBaseConfiguration$JpaWebConfiguration:spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+INFO 2022-04-02 12:52:41.653:[main] o.s.b.w.embedded.tomcat.TomcatWebServer :Tomcat started on port(s): 8081 (http) with context path ''
+INFO 2022-04-02 12:52:41.668:[main] c.e.s.StudentManagementApplication      :Started StudentManagementApplication in 5.214 seconds (JVM running for 6.201)
+INFO 2022-04-02 12:53:00.610:[http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]      :Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO 2022-04-02 12:53:00.611:[http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet       :Initializing Servlet 'dispatcherServlet'
+INFO 2022-04-02 12:53:00.613:[http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet       :Completed initialization in 2 ms
+INFO 2022-04-02 12:53:00.883:[http-nio-8081-exec-1] c.e.s.controller.StudentController      :Post Request Came For All Students
+INFO 2022-04-02 12:53:00.884:[http-nio-8081-exec-1] c.e.s.controller.StudentController      :Post Request is forwarded to service layer
+INFO 2022-04-02 12:53:02.260:[http-nio-8081-exec-3] c.e.s.controller.StudentController      :Post Request Came For All Students
+INFO 2022-04-02 12:53:02.265:[http-nio-8081-exec-3] c.e.s.controller.StudentController      :Post Request is forwarded to service layer
+INFO 2022-04-02 12:53:03.505:[http-nio-8081-exec-4] c.e.s.controller.StudentController      :Post Request Came For All Students
+INFO 2022-04-02 12:53:03.506:[http-nio-8081-exec-4] c.e.s.controller.StudentController      :Post Request is forwarded to service layer
+INFO 2022-04-02 12:55:31.144:[http-nio-8081-exec-7] c.e.s.controller.StudentController      :Post Request Came For All Students
+INFO 2022-04-02 12:55:31.149:[http-nio-8081-exec-7] c.e.s.controller.StudentController      :Post Request is forwarded to service layer
+INFO 2022-04-02 12:55:32.147:[http-nio-8081-exec-8] c.e.s.controller.StudentController      :Post Request Came For All Students
+INFO 2022-04-02 12:55:32.148:[http-nio-8081-exec-8] c.e.s.controller.StudentController      :Post Request is forwarded to service layer
+INFO 2022-04-02 12:55:33.085:[http-nio-8081-exec-9] c.e.s.controller.StudentController      :Post Request Came For All Students
+INFO 2022-04-02 12:55:33.108:[http-nio-8081-exec-9] c.e.s.controller.StudentController      :Post Request is forwarded to service layer
+INFO 2022-04-02 12:55:33.977:[http-nio-8081-exec-10] c.e.s.controller.StudentController      :Post Request Came For All Students
+INFO 2022-04-02 12:55:33.978:[http-nio-8081-exec-10] c.e.s.controller.StudentController      :Post Request is forwarded to service layer
+INFO 2022-04-02 12:56:09.890:[http-nio-8081-exec-2] c.e.s.controller.StudentController      :Post Request Came For All Students
+INFO 2022-04-02 12:56:09.892:[http-nio-8081-exec-2] c.e.s.controller.StudentController      :Post Request is forwarded to service layer
+INFO 2022-04-02 12:56:11.076:[http-nio-8081-exec-1] c.e.s.controller.StudentController      :Post Request Came For All Students
+INFO 2022-04-02 12:56:11.077:[http-nio-8081-exec-1] c.e.s.controller.StudentController      :Post Request is forwarded to service layer
+INFO 2022-04-02 12:56:12.028:[http-nio-8081-exec-3] c.e.s.controller.StudentController      :Post Request Came For All Students
+INFO 2022-04-02 12:56:12.029:[http-nio-8081-exec-3] c.e.s.controller.StudentController      :Post Request is forwarded to service layer
+INFO 2022-04-02 12:56:12.896:[http-nio-8081-exec-4] c.e.s.controller.StudentController      :Post Request Came For All Students
+INFO 2022-04-02 12:56:12.897:[http-nio-8081-exec-4] c.e.s.controller.StudentController      :Post Request is forwarded to service layer
+INFO 2022-04-02 12:56:13.719:[http-nio-8081-exec-5] c.e.s.controller.StudentController      :Post Request Came For All Students
+INFO 2022-04-02 12:56:13.720:[http-nio-8081-exec-5] c.e.s.controller.StudentController      :Post Request is forwarded to service layer
+INFO 2022-04-02 12:56:14.463:[http-nio-8081-exec-6] c.e.s.controller.StudentController      :Post Request Came For All Students
+INFO 2022-04-02 12:56:14.470:[http-nio-8081-exec-6] c.e.s.controller.StudentController      :Post Request is forwarded to service layer
+INFO 2022-04-02 12:56:15.234:[http-nio-8081-exec-7] c.e.s.controller.StudentController      :Post Request Came For All Students
+INFO 2022-04-02 12:56:15.235:[http-nio-8081-exec-7] c.e.s.controller.StudentController      :Post Request is forwarded to service layer
+INFO 2022-04-02 12:58:01.116:[RMI TCP Connection(7)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin:Application shutdown requested.
+INFO 2022-04-02 12:58:01.148:[RMI TCP Connection(7)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean:Closing JPA EntityManagerFactory for persistence unit 'default'
+INFO 2022-04-02 12:58:01.151:[RMI TCP Connection(7)-127.0.0.1] com.zaxxer.hikari.HikariDataSource      :HikariPool-1 - Shutdown initiated...
+INFO 2022-04-02 12:58:01.155:[RMI TCP Connection(7)-127.0.0.1] com.zaxxer.hikari.HikariDataSource      :HikariPool-1 - Shutdown completed.
+INFO 2022-04-02 12:58:07.052:[main] c.e.s.StudentManagementApplication      :Starting StudentManagementApplication using Java 17 on DESKTOP-6MJ53NL with PID 17384 (C:\Users\admin\git\StudentRestApi\target\classes started by admin in C:\Users\admin\git\StudentRestApi)
+DEBUG 2022-04-02 12:58:07.057:[main] c.e.s.StudentManagementApplication      :Running with Spring Boot v2.6.2, Spring v5.3.14
+INFO 2022-04-02 12:58:07.059:[main] c.e.s.StudentManagementApplication      :No active profile set, falling back to default profiles: default
+INFO 2022-04-02 12:58:07.916:[main] .s.d.r.c.RepositoryConfigurationDelegate:Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+INFO 2022-04-02 12:58:08.011:[main] .s.d.r.c.RepositoryConfigurationDelegate:Finished Spring Data repository scanning in 79 ms. Found 1 JPA repository interfaces.
+INFO 2022-04-02 12:58:08.717:[main] o.s.b.w.embedded.tomcat.TomcatWebServer :Tomcat initialized with port(s): 8081 (http)
+INFO 2022-04-02 12:58:08.728:[main] o.apache.catalina.core.StandardService  :Starting service [Tomcat]
+INFO 2022-04-02 12:58:08.729:[main] org.apache.catalina.core.StandardEngine :Starting Servlet engine: [Apache Tomcat/9.0.56]
+INFO 2022-04-02 12:58:08.875:[main] o.a.c.c.C.[Tomcat].[localhost].[/]      :Initializing Spring embedded WebApplicationContext
+INFO 2022-04-02 12:58:08.876:[main] w.s.c.ServletWebServerApplicationContext:Root WebApplicationContext: initialization completed in 1686 ms
+INFO 2022-04-02 12:58:08.940:[main] com.zaxxer.hikari.HikariDataSource      :HikariPool-1 - Starting...
+INFO 2022-04-02 12:58:09.192:[main] com.zaxxer.hikari.HikariDataSource      :HikariPool-1 - Start completed.
+INFO 2022-04-02 12:58:09.216:[main] o.s.b.a.h2.H2ConsoleAutoConfiguration   :H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:student'
+INFO 2022-04-02 12:58:09.364:[main] o.hibernate.jpa.internal.util.LogHelper :HHH000204: Processing PersistenceUnitInfo [name: default]
+INFO 2022-04-02 12:58:09.429:[main] org.hibernate.Version                   :HHH000412: Hibernate ORM core version 5.6.3.Final
+INFO 2022-04-02 12:58:09.616:[main] o.hibernate.annotations.common.Version  :HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+INFO 2022-04-02 12:58:09.771:[main] org.hibernate.dialect.Dialect           :HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+INFO 2022-04-02 12:58:10.667:[main] o.h.e.t.j.p.i.JtaPlatformInitiator      :HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+INFO 2022-04-02 12:58:10.676:[main] j.LocalContainerEntityManagerFactoryBean:Initialized JPA EntityManagerFactory for persistence unit 'default'
+WARN 2022-04-02 12:58:11.176:[main] JpaBaseConfiguration$JpaWebConfiguration:spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+INFO 2022-04-02 12:58:11.761:[main] o.s.b.w.embedded.tomcat.TomcatWebServer :Tomcat started on port(s): 8081 (http) with context path ''
+INFO 2022-04-02 12:58:11.775:[main] c.e.s.StudentManagementApplication      :Started StudentManagementApplication in 5.189 seconds (JVM running for 6.289)
+INFO 2022-04-02 12:58:28.877:[http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]      :Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO 2022-04-02 12:58:28.878:[http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet       :Initializing Servlet 'dispatcherServlet'
+INFO 2022-04-02 12:58:28.879:[http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet       :Completed initialization in 1 ms
+INFO 2022-04-02 12:58:29.061:[http-nio-8081-exec-1] c.e.s.controller.StudentController      :Post Request Came For All Students
+INFO 2022-04-02 12:58:29.065:[http-nio-8081-exec-1] c.e.s.controller.StudentController      :Post Request is forwarded to service layer
+INFO 2022-04-02 12:58:30.417:[http-nio-8081-exec-3] c.e.s.controller.StudentController      :Post Request Came For All Students
+INFO 2022-04-02 12:58:30.418:[http-nio-8081-exec-3] c.e.s.controller.StudentController      :Post Request is forwarded to service layer
+INFO 2022-04-02 14:10:35.385:[RMI TCP Connection(76)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin:Application shutdown requested.
+INFO 2022-04-02 14:10:35.416:[RMI TCP Connection(76)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean:Closing JPA EntityManagerFactory for persistence unit 'default'
+INFO 2022-04-02 14:10:35.420:[RMI TCP Connection(76)-127.0.0.1] com.zaxxer.hikari.HikariDataSource      :HikariPool-1 - Shutdown initiated...
+INFO 2022-04-02 14:10:35.423:[RMI TCP Connection(76)-127.0.0.1] com.zaxxer.hikari.HikariDataSource      :HikariPool-1 - Shutdown completed.

@@ -14,7 +14,7 @@ public class Student {
 	
 	@NotNull
 	private String studentname;
-	@NotNull
+	//@NotNull
 	private String fathername;
 	@NotNull
 	private String mothername;
