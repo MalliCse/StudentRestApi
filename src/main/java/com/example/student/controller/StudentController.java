@@ -34,11 +34,15 @@ public class StudentController {
 	private StudentService std1;
 	Logger logger=LoggerFactory.getLogger(StudentController.class);
 	
+	
+	
 	@GetMapping("/getdetails/{id}")
 	public Student getStudentDetails(@PathVariable Long id)
 	{
 		logger.info("Get Request For A Studet id {} came",id);
 		logger.info("Get Request is forwarded to service layer");
+		System.out.print("Good");
+		
 		
 //		return "Success";
 	return std1.getDetails(id);
