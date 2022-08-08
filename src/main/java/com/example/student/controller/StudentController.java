@@ -40,6 +40,7 @@ public class StudentController {
 	{
 		logger.info("Get Request For A Studet id {} came",id);
 		logger.info("Get Request is forwarded to service layer");
+		logger.info("Get Request is forwarded to service layer");
 //		return "Success";
 	return std1.getDetails(id);
 	}
