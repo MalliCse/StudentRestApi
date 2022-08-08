@@ -42,9 +42,6 @@ public class StudentController {
 		logger.info("Get Request is forwarded to service layer");
 //		return "Success";
 	return std1.getDetails(id);
-		
-		
-		
 	}
 	
 	@GetMapping("/getdetailsbyname")
